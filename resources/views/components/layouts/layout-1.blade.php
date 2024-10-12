@@ -5,7 +5,7 @@
         @vite('resources/css/app.css')
     </head>
     <body class="min-h-screen grid place-items-center p-4 bg-gray-900">
-        <div class="w-[1280px] h-[720px] bg-white">
+        <div class="bg-white">
             <section class="overflow-hidden">
                 <div class="p-16 h-full flex flex-col justify-end">
                     <p class="uppercase text-3xl font-bold text-red-600">{{ $subtitle }}</p>
