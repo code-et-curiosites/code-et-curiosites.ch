@@ -4,7 +4,7 @@
 
         @vite('resources/css/app.css')
     </head>
-    <body class="min-h-screen grid place-items-center p-4 bg-gray-900">
+    <body class="min-h-screen grid place-items-center">
         <div class="bg-white">
             <section class="overflow-hidden">
                 <div class="p-16 h-full flex flex-col justify-end">
