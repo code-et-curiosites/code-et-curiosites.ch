@@ -4,7 +4,12 @@ export default {
     "./resources/**/*.blade.php",
   ],
   theme: {
-    extend: {},
+    extend: {
+        backgroundImage: {
+            'green-yellow': "url('/img/green-yellow.jpg')",
+            'blue': "url('/img/blue.jpg')",
+        }
+    },
   },
   plugins: [],
 }

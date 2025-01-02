@@ -5,11 +5,11 @@
         @vite('resources/css/app.css')
     </head>
     <body class="min-h-screen w-full">
-        <div class="bg-white">
+        <div class="bg-green-yellow">
             <section class="overflow-hidden">
-                <div class="p-16 h-full flex flex-col justify-end">
-                    <p class="uppercase text-3xl font-bold text-red-600">{{ $subtitle }}</p>
-                    <h1 class="text-gray-900 mt-8 mb-4 text-7xl font-extrabold">{{ $title }}</h1>
+                <div class="p-16 max-w-[700px] h-full flex flex-col justify-end">
+                    <p class="uppercase text-3xl font-bold text-white">{{ $subtitle }}</p>
+                    <h1 class="stroke-shadow halftone halftone halftone-color">{{ $title }}</h1>
                     <p class="text-5xl">{{ $content }}</p>
                 </div>
             </section>
